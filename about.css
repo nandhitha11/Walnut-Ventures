@@ -1,0 +1,377 @@
+.navbar {
+  background-color: #F4F1EE;
+  color:  #3E2723;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 100px;
+  height: auto;
+}
+
+.logo {
+
+  height: 50px;
+  margin-left: 100px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.nav-links a {
+  color: #3E2723;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #6E4F3A;
+}
+
+.enquiry-btn {
+  background-color: transparent;
+  color: #3E2723;
+  padding: 8px 18px;
+  border: 2px solid #3E2723;
+  font-weight: bold;
+}
+
+.enquiry-btn:hover {
+  background-color: #3E2723;
+  color: white;
+}
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f4f1ee;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  flex-direction: column;
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: #3e2723;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #e0d6cd;
+}
+
+.about-parallax {
+  background-image: url('/Images/Interior/img2.jpg'); /* Replace with your image path */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3E2723;
+  text-align: center;
+}
+
+.about-text {
+  
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 18px;
+  margin: 0;
+}
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 80px 40px;
+  background-color: #f4f1ee;
+  gap: 40px;
+}
+
+.about-image {
+  flex: 1 1 45%;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+  flex: 1 1 50%;
+  max-width: 600px;
+}
+
+.about-heading h5 {
+  font-size: 14px;
+  color: #6E4F3A;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.about-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #3E2723;
+  line-height: 1.3;
+}
+
+.about-container p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+/* footer */
+.footer {
+  background-color: #8E735B;
+  color: #f4f1ee;
+  padding: 40px 20px 20px;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 250px;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-column p,
+.footer-column li,
+.footer-column a {
+  color: #ddd;
+  line-height: 1.6;
+  text-decoration: none;
+ 
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a:hover {
+  color: #f4a261;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #5a3a2f;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-size: 13px;
+}
+
+/* enquiry */
+/* Overlay background */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none; /* initially hidden */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+/* Popup container */
+.popup-box {
+  background-color: #fff;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 28px;
+  color: #000;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Content container */
+.popup-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* Left section */
+.popup-left {
+  width: 45%;
+  background-color: #fff3cc;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.popup-left h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.popup-left p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.popup-left .highlight {
+  color: #f9b500;
+  font-weight: bold;
+}
+
+.popup-left img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+/* Right section */
+.popup-right {
+  width: 55%;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.popup-right h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.popup-right .highlight {
+  color: #f9b500;
+  font-weight: bold;
+}
+
+/* Form styles */
+.popup-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-right input,
+.popup-right select,
+.popup-right textarea {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: 2px solid #f9b500;
+  border-radius: 5px;
+}
+
+.popup-right textarea {
+  resize: vertical;
+}
+
+.popup-right label {
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.popup-right button {
+  background-color: #f9b500;
+  color: #000;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.popup-right button:hover {
+  background-color: #e6a400;
+}
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .about-container {
+    max-width: 100%;
+  }
+
+  .about-container h2 {
+    font-size: 28px;
+  }
+}

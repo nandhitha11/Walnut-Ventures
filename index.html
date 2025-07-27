@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Images/walnut .png">
+    <title>Walnut Ventures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="/Images/walnut .png" alt="logo" class="logo" />
+
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home </a>
+            <a href="about.html">About </a>
+            <div class="dropdown">
+                <a href="#">Services</a>
+                <div class="dropdown-content">
+                    <a href="red.html">Residential</a>
+                    <a href="com.html">Commercial</a>
+                    <a href="Int.html">Interior</a>
+                    <a href="arc.html">Architectural Design</a>
+                    <a href="turn.html">Turnkey Construction</a>
+                </div>
+            </div>
+
+            <a href="project.html">Projects </a>
+            <a href="contact.html">Contact Us </a>
+            <a href="#" class="enquiry-btn" onclick="openPopup()">Enquiry</a>
+
+        </nav>
+    </header>
+    <section id="home" class="banner">
+        <div class="banner">
+            <div class="left-section">
+                <div class="text-content">
+                    <div class="brand">Walnut Ventures</div>
+                    <div class="headline">Elevating Homes<br>with Endless<br>Design Possibilities</div>
+                    <a href="serives.html" class="btn">KNOW MORE</a>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="/Images/Interior/img1.jpg" alt="Living Room">
+            </div>
+        </div>
+    </section>
+    <section class="welcome-section">
+        <div class="welcome-container">
+            <div class="welcome-image">
+                <img src="Images/Interior/img3.jpg" alt="Design 1" class="img1" />
+
+            </div>
+
+            <div class="welcome-content">
+                <div class="welcome-heading">
+                    <h5>WELCOME TO WALNUT VENTURES</h5>
+                </div>
+
+
+                <h2>Crafting Beautiful, Smart Living Spaces</h2>
+                <p>
+                    We bring innovative design and expert engineering together to elevate your interiors and
+                    living spaces — from concept to completion. With a legacy of trust and 200+ projects across South
+                    India,
+                    we build more than homes — we build experiences.
+                </p>
+                <ul class="checklist">
+                    <li>Residential Interior Design</li>
+                    <li>Modular Kitchens & Smart Storage</li>
+                    <li>Commercial & Office Spaces</li>
+                    <li>Renovation & Turnkey Projects</li>
+                    <li>Custom Furniture Solutions</li>
+                </ul>
+                <a href="serives.html" class="read-more-btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Projects Section -->
+    <section class="latest-projects">
+
+        <div class="section-title">
+            <span class="line left"></span>
+            <h5>RECENTLY FINISHED</h5>
+            <span class="line right"></span>
+        </div>
+        <h2 class="section-title">Our Latest Projects</h2>
+
+        <div class="project-carousel">
+            <div class="project-card">
+                <img src="/Images/Residential/img5.jpg" alt="Modern house " />
+                <div class="project-details">
+                    <h3>Modern House Construction</h3>
+                    <p>Trendy Residences</p>
+                    <a href="contact.html" class="quote-btn">Get Free Quote</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/Images/Interior/img6.webp" alt="Modern Kitchen" />
+                <div class="project-details">
+                    <h3>Modern Kitchen Construction</h3>
+                    <p>Innovative Comfort</p>
+                    <a href="contact.html" class="quote-btn">Get Free Quote</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/Images/Interior/img2.jpg" alt="Modern Kitchen" />
+                <div class="project-details">
+                    <h3>Interior and Exterior</h3>
+                    <p>Integrated Design</p>
+                    <a href="contact.html" class="quote-btn">Get Free Quote</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="carousel-controls">
+            <span class="arrow prev">&#8592;</span>
+            <span class="arrow next">&#8594;</span>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service-title">
+            <h5><span>WHAT YOU PREFER</span></h5>
+            <h2>What We Do</h2>
+        </div>
+
+        <div class="services-grid">
+            <div class="row">
+                <div class="service-card">
+                    <img src="/Images/red.png" alt="Icon">
+                    <h3>Residences Construction</h3>
+                    <p>We specialize in crafting high-quality residential spaces that blend modern design with lasting
+                        comfort. From planning to execution, we ensure excellence at every step.</p>
+                    <a href="red.html">Read More</a>
+                </div>
+
+                <div class="service-card">
+                    <img src="/Images/off.png" alt="Icon">
+                    <h3>Commercial</h3>
+                    <p>We deliver efficient and innovative commercial spaces tailored to your business needs—designed
+                        for functionality, built for success.</p>
+
+                    <a href="com.html">Read More</a>
+                </div>
+                <div class="service-card">
+                    <img src="/Images/interior.png" alt="Icon">
+                    <h3>Interior</h3>
+                    <p>We transform spaces with creative interior solutions that reflect your style—functional, elegant,
+                        and uniquely personalized.</p>
+
+                    <a href="Int.html">Read More</a>
+                </div>
+            </div>
+            <div class="row row-2">
+                <div class="service-card">
+                    <img src="/Images/apart.png" alt="Icon">
+                    <h3>Apartment</h3>
+                    <p>We build smart, sustainable apartments that offer comfort, style, and modern living—crafted for
+                        urban lifestyles.</p>
+
+                    <a href="turn.html">Read More</a>
+                </div>
+                <div class="service-card">
+                    <img src="/Images/arc.png" alt="Icon">
+                    <h3>Architectural Designing</h3>
+                    <p>We create innovative architectural designs that combine aesthetics, functionality, and
+                        sustainability to bring your vision to life.</p>
+
+                    <a href="arc.html">Read More</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="parallax-section">
+        <div class="parallax-content">
+            <h2>INTERIOR DESIGN</h2>
+            <p>Discover the art of interior transformation for your living space!</p>
+            <a href="Int.html" class="arrow-button">
+                <span class="arrow-int">&rarr;</span>
+            </a>
+
+        </div>
+
+        </div>
+
+    </section>
+    <section class="client-review">
+        <div class="review-title">
+
+            <h2>Our Client Review</h2>
+        </div>
+        <div class="review-row">
+            <div class="review-card">
+                <img src="/Images/Residential/red1.jpg" alt="red">
+                <p class="stars">⭐⭐⭐⭐⭐</p>
+                <p class="quote">"Walnut Ventures transformed our house into a dream home. Their designs are elegant,
+                    practical, and tailored to our taste."</p>
+                <p class="client-name">— Ananya R., Coimbatore</p>
+            </div>
+            <div class="review-card">
+                <img src="/Images/Residential/img5.jpg" alt="pic">
+                <p class="stars">⭐⭐⭐⭐⭐</p>
+                <p class="quote">"From concept to execution, they delivered everything with professionalism and
+                    attention to
+                    detail. Highly recommended!"</p>
+                <p class="client-name">— Rajiv K., Chennai</p>
+            </div>
+
+            <div class="review-card">
+                <img src="/Images/Interior/img6.webp" alt="int">
+                <p class="stars">⭐⭐⭐⭐⭐</p>
+                <p class="quote">"The interior work was stunning. Walnut Ventures brought warmth and modern aesthetics
+                    to
+                    our office space."</p>
+                <p class="client-name">— Shruti M., Bangalore</p>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <img src="/Images/walnut .png" alt="logo">
+                <p>Walnut Ventures is dedicated to turning your dream spaces into reality with expert design and
+                    construction solutions.</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p><a href="mailto:nanthitha1110@gmail.com.com">nanthitha1110@gmail.com</a></p>
+                <p><a href="tel:+911234567890">+91 12345 67890</a></p>
+                <p>Address: Chennai, Tamil Nadu</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Walnut Ventures. All rights reserved.</p>
+        </div>
+    </footer>
+<!--Enquiry popup-->
+<div class="popup-overlay" id="enquiryPopup">
+  <div class="popup-box">
+    <span class="close-btn" onclick="closePopup()">×</span>
+    
+    <div class="popup-content">
+      <!-- Left Section -->
+      <div class="popup-left">
+        <h2>Do you have a <span class="highlight">Questions?</span></h2>
+        <p>
+          We proudly serve clients across the greater Seattle area and beyond. To learn more about our services or to discuss your next project, feel free to contact us!
+        </p>
+        <img src="/Images/enquiry.png" alt="Get in Touch">
+      </div>
+
+      <!-- Right Section -->
+      <div class="popup-right">
+        <h2>Quick <span class="highlight">Enquiry</span></h2>
+        <!-- 📩 FormSubmit integrated form -->
+        <form action="https://formsubmit.co/95475e66bd7dac9addb08b57b6e6d121" method="POST">
+          <!-- Hidden config -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="thanks.html">
+          <input type="hidden" name="_template" value="table">
+
+          <!-- User fields -->
+          <input type="text" name="name" placeholder="Enter Your Name" required>
+          <input type="email" name="email" placeholder="Enter Your Email" required>
+          <input type="tel" name="phone" placeholder="Enter Phone Number" required>
+
+          <select name="service" required>
+            <option value="">Services</option>
+            <option value="Construction">Construction</option>
+            <option value="Interior">Interior</option>
+            <option value="Renovation">Renovation</option>
+          </select>
+
+          <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+
+          <label><input type="checkbox" required> I'm not a robot</label>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

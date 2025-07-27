@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Images/walnut .png">
+    <title>Turnkey</title>
+    <link rel="stylesheet" href="turn.css">
+</head>
+<body>
+     <header class="navbar">
+        <div class="logo-container">
+            <img src="/Images/walnut .png" alt="logo" class="logo" />
+
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home </a>
+            <a href="about.html">About </a>
+            <div class="dropdown">
+                <a href="#">Services</a>
+                <div class="dropdown-content">
+                    <a href="red.html">Residential</a>
+                    <a href="com.html">Commercial</a>
+                    <a href="Int.html">Interior</a>
+                    <a href="arc.html">Architectural Design</a>
+                    <a href="turn.html">Turnkey Construction</a>
+                </div>
+            </div>
+            <a href="project.html">Projects </a>
+            <a href="contact.html">Contact Us</a>
+            <a href="#" class="enquiry-btn" onclick="openPopup()">Enquiry</a>
+
+        </nav>
+    </header>
+
+    <section class="turn-parallax">
+        <div class="breadcrumb">
+            <h2>Turnkey-Construction</h2>
+        </div>
+    </section>
+    <section class="turnkey-section">
+  <div class="turnkey-container">
+    <!-- Left Image -->
+    <div class="turnkey-image">
+      <img src="Images/Residential/red5.webp" alt="architectural Construction">
+    </div>
+
+    <!-- Right Content -->
+    <div class="turnkey-content">
+      <h2>Our Turnkey Approach</h2>
+      <p>
+        Walnut Ventures makes turnkey services easy for you. We specialize in 
+        creating unique and luxurious residential and commercial projects. 
+        Our goal is to complete projects affordably and on time while meeting 
+        all quality standards. We take pride in our comprehensive approach, 
+        ensuring a smooth experience throughout the project.
+      </p>
+      
+    </div>
+  </div>
+</section>
+<section class="modern-apartments">
+    <div class="modern-container">
+        <!--left content-->
+        <div class="modern-content">
+            <h2>Our Modern Technologies</h2>
+            <p>
+               We use advanced technologies to improve our work and achieve better results. 
+               Our modern methods ensure efficiency, accuracy, and creative solutions that
+                match today's construction needs. At Walnut Ventures, we utilize the latest tools 
+                to deliver top-notch projects for both our residential and commercial clients.
+            </p>
+        </div>
+        <!-- right Image -->
+    <div class="modern-image">
+      <img src="Images/Archite/arc2.avif" alt="Commercial Construction">
+    </div>
+    </div>
+</section>
+<section class="plan-section">
+  <div class="plan-container">
+    <!-- Left Image -->
+    <div class="plan-image">
+      <img src="Images/Residential/red7.jpg" alt="Commercial Construction">
+    </div>
+
+    <!-- Right Content -->
+    <div class="plan-content">
+      <h2>Our Design and Planning</h2>
+      <p>
+        Our skilled team works closely with you to understand what you want.
+         We create unique designs and plans that match your style and practical 
+         requirements. We offer customized turnkey construction services and focus 
+         on timely delivery to ensure your satisfaction.
+      </p>
+      
+    </div>
+  </div>
+</section>
+<!-- custom -->
+<section class="quality-apartments">
+    <div class="quality-container">
+        <!--left content-->
+        <div class="quality-content">
+            <h2>Quality Assurance</h2>
+            <p>
+              We follow strict quality assurance procedures throughout our projects. 
+              From choosing materials to building, we make sure to meet industry standards
+               and rules. We ensure strong and high-quality results. Our goal is to deliver 
+               durable outcomes that meet all quality standards.
+            </p>
+        </div>
+        <!-- right Image -->
+    <div class="quality-image">
+      <img src="Images/Residential/img5.jpg" alt="Commercial Construction">
+    </div>
+    </div>
+</section>
+<!--footer-->
+    <footer class="footer">
+        <div class="footer-container">
+    <div class="footer-column">
+      <img src="/Images/walnut .png" alt="logo">
+      <p>Walnut Ventures is dedicated to turning your dream spaces into reality with expert design and construction solutions.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+<div class="footer-column">
+      <h4>Contact</h4>
+      <p><a href="mailto:nanthitha1110@gmail.com.com">nanthitha1110@gmail.com</a></p>
+      <p><a href="tel:+911234567890">+91 12345 67890</a></p>
+      <p>Address: Chennai, Tamil Nadu</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Walnut Ventures. All rights reserved.</p>
+  </div>
+  
+</footer>
+<!--Enquiry popup-->
+<div class="popup-overlay" id="enquiryPopup">
+  <div class="popup-box">
+    <span class="close-btn" onclick="closePopup()">×</span>
+    
+    <div class="popup-content">
+      <!-- Left Section -->
+      <div class="popup-left">
+        <h2>Do you have a <span class="highlight">Questions?</span></h2>
+        <p>
+          We proudly serve clients across the greater Seattle area and beyond. To learn more about our services or to discuss your next project, feel free to contact us!
+        </p>
+        <img src="/Images/enquiry.png" alt="Get in Touch">
+      </div>
+
+      <!-- Right Section -->
+      <div class="popup-right">
+        <h2>Quick <span class="highlight">Enquiry</span></h2>
+        <!-- 📩 FormSubmit integrated form -->
+        <form action="https://formsubmit.co/95475e66bd7dac9addb08b57b6e6d121" method="POST">
+          <!-- Hidden config -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="thanks.html">
+          <input type="hidden" name="_template" value="table">
+
+          <!-- User fields -->
+          <input type="text" name="name" placeholder="Enter Your Name" required>
+          <input type="email" name="email" placeholder="Enter Your Email" required>
+          <input type="tel" name="phone" placeholder="Enter Phone Number" required>
+
+          <select name="service" required>
+            <option value="">Services</option>
+            <option value="Construction">Construction</option>
+            <option value="Interior">Interior</option>
+            <option value="Renovation">Renovation</option>
+          </select>
+
+          <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+
+          <label><input type="checkbox" required> I'm not a robot</label>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
