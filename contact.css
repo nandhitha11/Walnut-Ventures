@@ -89,7 +89,7 @@
 }
 /* parallax */
 .project-parallax{
-    background-image: url('/Images/Commerical/com3.webp'); /* Replace with your image path */
+    background-image: url('/Images/common/buld3.webp'); /* Replace with your image path */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
